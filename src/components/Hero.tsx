@@ -21,13 +21,12 @@ const Hero = () => {
                 Take notes that stay private with military-grade encryption. Not even we can read your content – because privacy isn't just a feature, it's our foundation.
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4 animate-fade-in" style={{ animationDelay: "300ms" }}>
-                <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 group transition-all">
-                  Get Started Free
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Button>
-                <Button size="lg" variant="outline" className="border-indigo-200 text-indigo-600 hover:bg-indigo-50">
-                  See How It Works
-                </Button>
+                <a href="https://app.indigonotes.com/register">
+                  <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 group transition-all">
+                    Get Started For Free
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Button>
+                </a>
               </div>
               <div className="mt-10 grid grid-cols-1 gap-y-6 sm:grid-cols-3 sm:gap-x-6">
                 {[

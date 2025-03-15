@@ -107,14 +107,16 @@ const Security = () => {
                     <div className="relative z-10">
                       <h3 className="text-xl font-semibold">Want to verify our claims?</h3>
                       <p className="mt-2 text-gray-600 text-sm">
-                        Our system has been independently audited, and we're transparent about our security architecture.
+                        We're fully transparent about our security architecture.
                       </p>
-                      <button
-                        type="button"
-                        className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                      >
-                        Read our security whitepaper
-                      </button>
+                      <a href="https://drive.google.com/file/d/1wGJru64vIsCr5fMgduHju7-UZwJ_BnJS/view?usp=sharing">
+                        <button
+                          type="button"
+                          className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                        >
+                          Read our Privacy Policy
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
