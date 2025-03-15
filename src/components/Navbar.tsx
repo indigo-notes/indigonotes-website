@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Shield, Lock } from "lucide-react";
+import { Menu, X, FileText, Lock } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,8 +12,12 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
-              <Shield className="h-8 w-8 text-indigo-600" />
-              <span className="text-xl font-bold text-foreground">SecureNotes</span>
+              <div className="h-10 w-10 rounded-lg bg-indigo-600 flex items-center justify-center">
+                <FileText className="h-5 w-5 text-white" />
+              </div>
+              <span className="text-xl font-bold">
+                <span className="gradient-text">Indigo</span>Notes
+              </span>
             </a>
           </div>
           
@@ -32,7 +36,7 @@ const Navbar = () => {
               Log in
             </Button>
             <Button className="bg-indigo-600 hover:bg-indigo-700">
-              Sign up
+              Sign up free
             </Button>
           </nav>
           
@@ -75,7 +79,7 @@ const Navbar = () => {
               </div>
               <div className="mt-3 px-5">
                 <Button className="w-full justify-center bg-indigo-600 hover:bg-indigo-700">
-                  Sign up
+                  Sign up free
                 </Button>
               </div>
             </div>
