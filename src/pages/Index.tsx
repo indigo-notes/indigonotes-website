@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Helmet } from "react-helmet";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import Security from "@/components/Security";
+import Pricing from "@/components/Pricing";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>SecureNotes - Privacy-First Note Taking</title>
+        <meta name="description" content="Secure, private notes with end-to-end encryption. Not even we can read your content." />
+      </Helmet>
+      <div className="flex min-h-screen flex-col">
+        <Navbar />
+        <main className="flex-grow">
+          <Hero />
+          <Features />
+          <Security />
+          <Pricing />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
