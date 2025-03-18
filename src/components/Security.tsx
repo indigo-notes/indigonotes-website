@@ -37,7 +37,7 @@ const Security = () => {
     <div id="security" className="py-24 sm:py-32 bg-gradient-to-b from-white to-indigo-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">Enterprise-grade security</h2>
+          <h2 className="text-base font-semibold leading-7 text-indigo-600">High-level security</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             How Your Data Stays Private
           </p>
@@ -93,12 +93,12 @@ const Security = () => {
                   <SecurityHighlight
                     icon={Shield}
                     title="Zero knowledge"
-                    description="We can't access your data, even under legal compulsion, because we simply don't have the keys."
+                    description="We can't access your personal data, even under legal compulsion, because we simply don't have the keys."
                   />
                   <SecurityHighlight
                     icon={AlertTriangle}
                     title="No backdoors"
-                    description="Our code is designed with no backdoors or master keys - not even for us."
+                    description="Our code is designed with no encryption backdoors - not even for us."
                   />
                 </div>
                 

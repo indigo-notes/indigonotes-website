@@ -18,7 +18,7 @@ const Hero = () => {
                 Where Privacy Meets Productivity
               </h1>
               <p className="mt-6 text-lg text-muted-foreground animate-fade-in" style={{ animationDelay: "200ms" }}>
-                Take notes that stay private with military-grade encryption. Not even we can read your content – because privacy isn't just a feature, it's our foundation.
+                Take notes that stay private with high-security encryption. Not even we can read your content - because privacy isn't just a feature, it's our foundation.
               </p>
               <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4 animate-fade-in" style={{ animationDelay: "300ms" }}>
                 <a href="https://app.indigonotes.com/register">
