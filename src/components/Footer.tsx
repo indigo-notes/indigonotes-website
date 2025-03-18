@@ -1,6 +1,6 @@
 import { FileText } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faBluesky, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn, faBluesky, faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-white border-t border-indigo-100">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
-          <a href="https://www.linkedin.com/company/indigonotes">
+          <a href="https://www.linkedin.com/company/indigonotes" className="text-gray-400 hover:text-indigo-600 transition-colors">
             <span className="sr-only">LinkedIn</span>
             <FontAwesomeIcon icon={faLinkedinIn} className="h-6 w-6" />
           </a>
@@ -20,6 +20,10 @@ const Footer = () => {
           <a href="https://github.com/indigo-notes" className="text-gray-400 hover:text-indigo-600 transition-colors">
             <span className="sr-only">GitHub</span>
             <FontAwesomeIcon icon={faGithub} className="h-6 w-6" />
+          </a>
+          <a href="https://www.youtube.com/@indigo-notes" className="text-gray-400 hover:text-indigo-600 transition-colors">
+            <span className="sr-only">YouTube</span>
+            <FontAwesomeIcon icon={faYoutube} className="h-6 w-6" />
           </a>
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
