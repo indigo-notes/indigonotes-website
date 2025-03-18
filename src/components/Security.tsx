@@ -42,7 +42,7 @@ const Security = () => {
             How Your Data Stays Private
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We've engineered our system from the ground up to ensure your data remains private, even from us.
+            We've engineered our back-end system in such a way that your data remains private, even from us.
           </p>
         </div>
         
@@ -51,7 +51,7 @@ const Security = () => {
             <div className="lg:max-w-lg">
               <h3 className="text-2xl font-bold tracking-tight text-gray-900">Nothing to compromise</h3>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Our zero-knowledge architecture means that even if our servers were compromised, your data would remain secure and private.
+                Our zero-knowledge architecture means that even if our servers were compromised, your personal data would remain secure and private.
               </p>
               
               <div className="mt-10">
