@@ -32,6 +32,9 @@ const Navbar = () => {
             <a href="https://drive.google.com/file/d/1wGJru64vIsCr5fMgduHju7-UZwJ_BnJS/view?usp=sharing" className="text-sm font-medium hover:text-indigo-600 transition-colors">
               Privacy Policy
             </a>
+            <a href="https://forms.gle/NRjsYPkY7AAt42Rv6" className="text-sm font-medium hover:text-indigo-600 transition-colors">
+              Give Feedback
+            </a>
             <a href="https://app.indigonotes.com/app">
               <Button variant="outline" className="border-indigo-200 text-indigo-600 hover:bg-indigo-50">
                 Log in
@@ -71,6 +74,12 @@ const Navbar = () => {
             </a>
             <a href="#security" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-50 hover:text-indigo-600">
               Security
+            </a>
+            <a href="https://drive.google.com/file/d/1wGJru64vIsCr5fMgduHju7-UZwJ_BnJS/view?usp=sharing" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-50 hover:text-indigo-600">
+              Privacy Policy
+            </a>
+            <a href="https://forms.gle/NRjsYPkY7AAt42Rv6" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-50 hover:text-indigo-600">
+              Give Feedback
             </a>
             <div className="pt-4 pb-3 border-t border-indigo-100">
               <div className="flex items-center px-5 space-x-3">
